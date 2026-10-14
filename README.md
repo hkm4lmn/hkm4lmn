@@ -26,14 +26,14 @@ A full-stack web app that predicts whether, and when, a spinal cord injury patie
 
 ---
 
-## 🛠️ Side projects (in progress)
+## 🛠️ Side projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| **Retail Stock & Sales Tracker** | Inventory and sales tracking for a small retail store, with low-stock alerts and sales reports | FastAPI · PostgreSQL |
-| **MY Price Tracker** | Tracks product prices on Shopee and Lazada and sends Telegram alerts when they drop | Python · scraping · Telegram Bot API |
-| **ML Model Comparison Toolkit** | Upload a CSV, train several models, compare metrics side by side and explain them with SHAP | Python · scikit-learn · SHAP |
-| **Tested URL Shortener API** | A small REST API built to production habits: full test suite, Docker, CI | FastAPI · pytest · Docker · GitHub Actions |
+| **[Retail Stock & Sales Tracker](https://github.com/hkm4lmn/retail-stock-tracker)** | Inventory and sales API for a small store: audited stock movements, sales that can't oversell even under concurrent load, and daily reports | FastAPI · PostgreSQL · SQLAlchemy · pytest · Docker |
+| **MY Price Tracker** *(in progress)* | Tracks product prices on Shopee and Lazada and sends Telegram alerts when they drop | Python · scraping · Telegram Bot API |
+| **ML Model Comparison Toolkit** *(in progress)* | Upload a CSV, train several models, compare metrics side by side and explain them with SHAP | Python · scikit-learn · SHAP |
+| **Tested URL Shortener API** *(in progress)* | A small REST API built to production habits: full test suite, Docker, CI | FastAPI · pytest · Docker · GitHub Actions |
 
 ---
 
