@@ -49,4 +49,4 @@ A full-stack web app that predicts whether, and when, a spinal cord injury patie
 ## 📫 Get in touch
 
 Open to internships and graduate roles in software engineering, backend or ML.
-<!-- Add your LinkedIn and email here, e.g. [LinkedIn](https://linkedin.com/in/your-handle) -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hakim%20Al--Amin-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hakim-al-amin-262181320/)
