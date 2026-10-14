@@ -1,4 +1,4 @@
-# Hi, I'm Kim 👋
+# Hi, I'm Hakim 👋
 
 **Hakim Al-Amin** · Computer Science undergraduate at **Universiti Teknologi MARA (UiTM)** · Selangor, Malaysia
 
