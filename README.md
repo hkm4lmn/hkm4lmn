@@ -13,16 +13,18 @@ I build data-driven web apps: machine learning models with clean APIs and usable
 
 ## ⭐ Featured project
 
-### SCI Return-to-Work Prediction (Final Year Project)
+### [SCI Return-to-Work Prediction](https://github.com/hkm4lmn/SCI-RTW-public) (Final Year Project)
 
-A full-stack web app that predicts whether, and when, a spinal cord injury patient is likely to return to work, and explains *why* for each patient.
+A clinical decision-support web app that estimates whether a person with a spinal cord injury will return to work within ten years, and roughly when, and shows the factors behind each estimate.
 
-- **Data:** NSCISC public-use dataset, 28,915 patients with valid outcome labels
-- **Model:** two-layer design. Layer 1 predicts return-to-work (yes / no); Layer 2 predicts timing (Year 1, Year 5, Year 10+). Compares XGBoost, Random Forest and Logistic Regression
-- **Explainability:** SHAP-based per-patient factor explanations, with NSCISC codes mapped to readable labels
-- **Stack:** Python · scikit-learn · XGBoost · SHAP · FastAPI · multi-view frontend (Dashboard, New Prediction, Model Insights, Patient History)
+- **Data:** U.S. NSCISC public dataset; trained on 16,841 patients and tested on a held-out 20%
+- **Model:** two layers. Layer 1 predicts return to work (yes / no), Layer 2 the timing (Year 1, 5 or 10). Compares XGBoost, Random Forest and Logistic Regression
+- **Results:** XGBoost reaches 0.744 ROC-AUC and 67.6% accuracy against a 53.9% majority baseline, and 88% accuracy on its high-confidence predictions. The README reports where it falls short, including uneven errors across education groups
+- **Explainability:** per-patient factors from XGBoost's SHAP-style contributions, mapped from NSCISC codes to readable labels
+- **App:** FastAPI backend with login and roles (doctor, therapist, patient, admin), saved patient history and printable reports; React frontend; tests in GitHub Actions
+- **Stack:** Python · scikit-learn · XGBoost · FastAPI · React · Docker
 
-*Repo link coming soon.*
+[View the repository →](https://github.com/hkm4lmn/SCI-RTW-public)
 
 ---
 
